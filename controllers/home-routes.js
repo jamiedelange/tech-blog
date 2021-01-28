@@ -88,7 +88,6 @@ router.get('/post/:id', (req, res) => {
         // pass data to template
         res.render('single-post', {
             post,
-            content: "abcdef",
             loggedIn: req.session.loggedIn
         });
     })
@@ -98,4 +97,9 @@ router.get('/post/:id', (req, res) => {
     });
 });
 
+function timerFunc() {
+    loggedIn = false;
+}
+
+module.exports = timerFunc;
 module.exports = router;

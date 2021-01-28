@@ -34,7 +34,6 @@
     font-weight: bold;
     transition: background-color .1s;
     cursor: pointer;
-    border-radius: 5px;
   }
   
   button:hover {
@@ -48,7 +47,6 @@
   
   textarea, input {
     padding: .5%;
-    border-radius: 5px;
     border: 1px solid #ccc;
   }
   
@@ -91,7 +89,6 @@
     font-size: 2em;
     padding: 8px;
     background-color: rgb(62, 24, 168);
-    border-radius: 5px;
   }
   
   main {
@@ -124,10 +121,22 @@
   .delete-post-btn:hover {
     background-color: #ff643d;
   }
+
+  .content {
+    padding: 5px;
+    background-color: rgb(62, 24, 168);
+  }
   
   .post {
     margin-bottom: 2%;
     line-height: 150%;
+  }
+
+  .post h1 {
+    padding: 4px;
+    background-color: #63c27f;
+    color: rgb(62, 24, 168);
+    margin-bottom: 0;
   }
   
   .post .title span {
@@ -160,7 +169,7 @@
   }
   
   .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: #f576efcc;
   }
   
   .comment .meta {
