@@ -97,9 +97,4 @@ router.get('/post/:id', (req, res) => {
     });
 });
 
-function timerFunc() {
-    loggedIn = false;
-}
-
-module.exports = timerFunc;
 module.exports = router;
