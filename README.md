@@ -14,7 +14,7 @@
   * [Licenses](#licenses)
 
   # Installation Instructions
-  Site is deployed at https://guarded-harbor-93701.herokuapp.com/ 
+  Site is deployed at https://guarded-harbor-93701.herokuapp.com
 
   # Usage Information
   Sign up, log in, and start reading and creating posts! Users can like and comment on blog posts
